@@ -1,0 +1,45 @@
+////////////////////////////////**************************HTML**************************/////////////////////
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="gradient.css">
+</head>
+<body>
+	<div id="container">
+		
+	</div>
+	<div id="container1">
+		
+	</div>
+	<div id="container2">
+		
+	</div>
+
+
+</body>
+</html>
+
+//////////////////////////////******************CSS*************************//////////////////////
+
+
+/*	background-image: linear-gradient(to top  right ,blue,red 120%);*/
+	/*ABOVE METHOD MEANS RED 90% KE BAD SE SURU HOGA
+	by default t is 100%*/
+	background-image: linear-gradient(360deg,blue,red 120%);
+}
+#container1{
+	height: 400px;
+	width: 400px;
+	margin: 40px;
+	border: 2px black solid;
+	background: repeating-linear-gradient(to top  right,red,blue 20px);
+}
+#container2{
+	height: 400px;
+	width: 400px;
+	margin: 40px;
+	border: 2px black solid;
+	background: repeating-radial-gradient(red,blue);
+}
