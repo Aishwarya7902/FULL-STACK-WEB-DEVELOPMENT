@@ -1,1 +1,283 @@
+/*li{
+	display: inline;
+    word-spacing: 20px;
+}*/
+
+/*a{
+	text-decoration: none;
+	color: white;*/
+	/*word-spacing: 20px;*/
+	/*font-size: 30px;
+	}*/
+
+
+body{
+	margin: 0px;
+}
+/*body header*/
+#body-header{
+	height: 90vh;
+	
+	opacity: 0.9;
+	background-image: url("https://cdn.hipwallpaper.com/m/92/80/raChzS.jpg");
+	background-size: cover;
+	background-position: centre;
+	background-attachment: fixed;
+}
+/*horizontal*/
+.horizontal-list{
+list-style: none;
+padding: 0px;
+}
+.horizontal-list li{
+	display: inline-block;
+	margin: 0px 10px 10px 0px;
+}
+.horizontal-list li a{
+	color: #37474f;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.nav-menu li a{
+transition: color 1s, border-bottom 8s;
+}
+
+.text-center{
+	text-align: center;
+}
+.nav-menu li a:hover{
+      color: white;
+      border-bottom: 1px solid white;
+  }
+
+#body-header p{
+	font-size: 90px;
+	color: #f06292;
+	text-align: center;
+
+}
+#my-name{
+	font-size: 8rem;
+	letter-spacing: 0.1rem;
+	color: #6874c873;
+	font-weight: 800;
+	font-family: cursive;
+	margin-bottom: 0.5rem;
+}
+#my-name:hover{
+	color: pink;
+	transition: 1s;
+}
+.social-icons li a i{
+	padding: 10px;
+	
+	font-size: 2rem;
+	border-radius: 50%;
+}
+.social-icons li a i:hover{
+	box-shadow: 2px 0px  6px 4px red;
+
+
+}
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#my-image{
+	height: 20rem;
+	width: 20rem;
+	margin: auto;
+	margin-top: -17vh;
+}
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 100%;
+}
+
+#about-me{
+	font-size: 40px;
+	color: #ba68c8;
+	font-weight: bold;
+	font-family: cursive;
+	word-spacing: 1px;
+}
+section{
+	width: 100%;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	
+	font-weight: 500;
+}
+.section-heading span{
+	font-size: 50px;
+	color: blue;
+	display: inline-block;
+	padding-top: 10px ;
+	margin-right:1rem ;
+
+}
+.skill-display{
+	width: 70%;
+	/*height: 100px;
+	border: 2px solid blue;*/
+	display: flex;
+	flex-direction: horizontal;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+.skill-progress{
+	width: 9rem;
+	height: 2rem;
+	background-color: grey;
+	border-radius: 2rem;
+border-right:4px grey solid ;
+margin: 30px 50px 50px 30px;
+	
+
+}
+.skill-progress>div{
+	border-radius: 20px 0px 0px 20px;
+
+}
+.skill-name span{
+	color: white;
+	font-size: 2rem;
+	margin-left: 15px;
+}
+
+
+section:nth-child(2n+1){
+	background-color: white;
+}
+section:nth-child(2n){
+	background-color: lightsteelblue;
+}
+section:target{
+	background-color: lightgrey;
+}
+.mb-blue{
+	background-color: #2857a4;
+	
+}
+.75mbpx{
+	margin-bottom: 75px;
+}
+.eighty-five-percent{
+	width: 85%;
+	height: inherit;
+	border-radius: inherit;
+	
+	
+}
+.mb-orange{
+	background-color: orange;
+}
+.eighty-percent{
+	width: 80%;
+	height: inherit;
+	border-radius: inherit;
+	
+}
+.mb-green{
+	background-color: #ff7043;
+}
+.sixty-percent{
+	width: 60%;
+	height: inherit;
+	border-radius: inherit;
+	
+}
+.mb-yellow{
+	background-color: yellow;
+}
+.ninety-five-percent{
+	width: 90%;
+	height: inherit;
+	border-radius: inherit;
+	
+}
+.mb-lightpink{
+	background-color: lightpink;
+}
+.seventy-percent{
+	width: 70%;
+	height: inherit;
+	border-radius: inherit;
+	
+}
+
+.mb-cyan{
+	background-color: cyan;
+}
+.forty-percent{
+	width: 40%;
+	height: inherit;
+	border-radius: inherit;
+	
+}
+.mb-blue{
+	background-color: #2857a4;
+}
+.thirty-percent{
+	width: 30%;
+	height: inherit;
+	border-radius: inherit;
+	
+}
+.mb-darkgreen{
+	background-color: #005464;
+}
+.forty-five-percent{
+	width: 45%;
+	height: inherit;
+	border-radius: inherit;
+	
+}
+
+.thirty-five-percent{
+	width: 35%;
+	height: inherit;
+	border-radius: inherit;
+
+	
+}
+.mb-silver{
+	background-color: lightslategrey;
+}
+.sixty-five-percent{
+	width: 65%;
+	height: inherit;
+	border-radius: inherit;
+	
+}
+/*TO AVOID WORD WRAP WE USE 
+overflow-wrap: break-word;*/
+
+/*contact section*/
+#contact{
+	background-image: linear-gradient(#2857a4,#403066);
+}
+#contact span{
+	color: white;
+}
+.info{
+	width: 70%;
+	display: flex;
+	flex-direction: horizontal;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
 
