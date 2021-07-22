@@ -1,1 +1,71 @@
+/////////////////*****************************HTML*****************************************////////////////////////////////////////
+   <!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="pseduo elements.css">
+</head>
+<body>
+	<!--
+	<p class="styled-first-letter">coding is love</p>
+	<p>coding is love</p>*-->
+	<p>Aishwarya</p>
+	<ul>
+		<li>BIRD'S EYE</li>
+		<li>3:2:1</li>
+		<li>WORKING FOR...IS A PRIVILAGE ...YOU MUST GIVE 3X</li>
+	</ul>
 
+</body>
+</html>
+
+//////////////////////******************************************CSS**********************************************////////////////////////////////////////////
+/*quick recap: learnt about pseudo elements
+1.to transform first letter of a paragraph let say
+2.to transform 1st line of a paragraph let say
+3.add words before and after 
+4.add images before and after*/
+
+
+.styled-first-letter::first-line{
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-family: cursive;
+	color: purple;
+}
+p::before{
+	content: 'miss';
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+p::after{
+	content: '';
+    font-size: 5rem;
+	font-weight: bold;
+	text-transform: capitalize;
+	display: inline-block;
+	/*DISPLAY KO INLINE BLOCK ISLIYE KAR RAHE HAIN COZ BACKGROUND IMAGE IS INLINE PROPERTY AND WE CAN'T CHANGE IT'S HEIGHT AND WIDTH THAT'S WHY WE MADE IT INLINE BLOCK*/
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-image: url(https://image.flaticon.com/icons/png/256/4727/4727669.png);
+
+
+}
+ul{
+	list-style: none;
+}
+li::before{
+	content: '';
+	background-image: url(https://image.flaticon.com/icons/png/256/4228/4228707.png);
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	font-size: 5rem;
+	font-weight: bold;
+	text-transform: capitalize;
+	background-size: contain;
+}
