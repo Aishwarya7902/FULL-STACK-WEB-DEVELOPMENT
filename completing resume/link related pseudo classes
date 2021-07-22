@@ -1,0 +1,35 @@
+///////*****************************************HTML***************************************************************************************///////////////////
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="link related pseudo classes.css">
+</head>
+<body>
+<div id="container">
+	<p>Click <a href="www.google.com" target="_blank">google</a>to Search.
+	</p>
+	<a href="www.codingninjas.com" target="_blank">coding ninja</a>
+</div>
+</body>
+</html>
+
+
+////////////////////////////*********************************CSS*******************************************************/////////////////////////////////////////
+
+
+p:active{
+	background-color: cyan;
+}
+a:link{
+	color:green;
+}
+a:visited{
+	color:cyan;
+}
+a:active{
+	color:red;
+}
+
