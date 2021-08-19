@@ -1,0 +1,41 @@
+*******************HTML********************************
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="viewport meta tag.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!--meta tag ensures that the browser creates a virtual viewport of measurement exactly for the device we are looking for...also initial scale=1 is the zooming  factor ...if it was 2 that meant we want 200% of initial--> 
+</head>
+<body>
+<div id="div1">
+	<p>GitHub, Inc. is an American multinational corporation that provides hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, continuous integration and wi...GitHub, Inc. is an American multinational corporation that provides hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, continuous integration and wi...</p>
+</div>
+
+</body>
+</html>
+
+********************************************CSS****************************************************
+
+
+html{
+	font-size: 30px;
+}
+/*
+#div1{
+	width:1100px ;//this is fixed content ....this is not responsive and we'll have a bad user experience
+	height: auto;    
+	padding: 5px;
+	border: 1px black solid;
+}
+*/
+#div1{
+	width:60% ;/*this is responsive and adjusts accordingly.....this is fluid content*/
+	height: auto;    
+	padding: 5px;
+	border: 1px black solid;
+	/*while using percentages we must use min and max heights and widths for a better user experience*/
+}
+/*other units are rem and em ....rem is based on root size and em is based on element size*/
