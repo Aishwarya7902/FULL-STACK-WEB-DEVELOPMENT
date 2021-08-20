@@ -12,7 +12,9 @@
 </div>
 </body>
 </html>
+
 *******************************CSS******************
+/*  DESKTOP FIRST APPROACH*/
 
 html{
 	font-size: 30px;
