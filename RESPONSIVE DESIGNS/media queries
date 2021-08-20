@@ -1,0 +1,40 @@
+****************************************HTML******************************
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="media queries.css">
+</head>
+<body>
+<div id="div1">
+	<p>GitHub, Inc. is an American multinational corporation that provides hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, continuous integration and wi...GitHub, Inc. is an American multinational corporation that provides hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, continuous integration and wi...</p>
+</div>
+</body>
+</html>
+*******************************CSS******************
+
+html{
+	font-size: 30px;
+}
+#div1{
+	width:60%; /*this is responsive and adjusts accordingly.....this is fluid content*/
+	
+	border: 1px black solid;
+}
+
+@media screen and (max-width: 900px){
+	#div1{
+	width:90%; /*this is responsive and adjusts accordingly.....this is fluid content*/
+	
+	
+}
+}
+@media screen and (max-width: 600px){
+	#div1{
+	width:100%; /*this is responsive and adjusts accordingly.....this is fluid content*/
+	
+	
+}
+}
+/*NOTE: CSS RULES RUN FROM TOP TO BOTTOM...BOTTOM MOST WILL BE CONSIDERED AS FINL*/	
