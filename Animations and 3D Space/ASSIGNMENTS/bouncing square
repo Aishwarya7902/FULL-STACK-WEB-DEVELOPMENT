@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="bouncing square.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="text">Bounce Animation</h1>
+		<div class="box"></div>
+	</div>
 
+</body>
+</html>
+************************************************************
+body{
+	
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family:Open Sans ;
+
+
+}
+
+.box{
+height: 150px;	
+width: 250px;
+background-color: yellowgreen;
+margin: 80px auto;
+cursor: pointer;
+}
+.text:hover,.box:hover{
+	animation: bounce 1s linear;
+
+}
+@keyframes bounce{
+	20%,50%,80%,to{
+		transform: translateY(0);
+	}
+	40%{
+		transform: translateY(-30px);
+	}
+	
+	
+	70%{
+		transform: translateY(-15px);
+	}
+	90%{
+		transform: translateY(-4px);
+	}
+}
