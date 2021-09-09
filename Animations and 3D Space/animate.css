@@ -1,1 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="animate css.css">
+</head>
+<body>
+	<div class="one animated zoomInRight infinite"></div>
+	<div class="two animated zoomOutLeft infinite"></div>
 
+</body>
+</html>
