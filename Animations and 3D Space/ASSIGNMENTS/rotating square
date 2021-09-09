@@ -21,14 +21,14 @@ body{
 	width: 200px;
 	height: 200px;
 	display: flex;
-	border-radius: 10%;
+	
 	align-items: center;
 	justify-content: center;
 	border: 2px black solid;
 
 	background-color: yellowgreen;
 	margin: 180px auto;
-	transition: all 5s ease-in-out;
+	transition: all 1s ease-in-out;
 }
 .rotate:hover{
 	background-color: pink;
