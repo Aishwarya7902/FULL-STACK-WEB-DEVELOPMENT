@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="cube.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box-area">
+			<div class="box1"></div>
+			<div class="box2"></div>
+			<div class="box3"></div>
+			<div class="box4"></div>
+			<div class="box5"></div>
+			<div class="box6"></div>
+
+
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+******************************************************************************************************
+
+body{
+	background-color: cadetblue;
+}
+.wrapper{
+	height: 200px;
+	width: 200px;
+	margin: 15% auto;
+}
+.box-area{
+	animation: animate 10s ease-in-out infinite;
+	transform-style: preserve-3d;
+	transform-origin: 100px 100px 0;
+}
+.box-area div{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	line-height: 400px;
+}
+.box-area .box1{
+	background-image: url(https://images.unsplash.com/photo-1631143070441-d5e9b20ceb84?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8eGpQUjRobGtCR0F8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: translateZ(100px);
+
+}
+.box-area .box2{
+	background-image: url(https://images.unsplash.com/photo-1630661355086-43181146816e?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform:rotateY(90deg) translateZ(100px);
+
+}
+
+.box-area .box3{
+	background-image: url(https://images.unsplash.com/photo-1630404365865-97ff92feba6a?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxfHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+
+}
+.box-area .box4{
+	background-image: url(https://images.unsplash.com/photo-1630240918587-0532fdea5edd?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI1fHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+
+}
+.box-area .box5{
+	background-image: url(https://images.unsplash.com/photo-1630261234684-d22b0892a809?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI2fHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+
+}
+.box-area .box6{
+	background-image: url(https://images.unsplash.com/photo-1630384059784-b0409fdd5bf8?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ1fHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: rotateX(-90deg) translateZ(100px);
+}
+@keyframes animate{
+	from,to{
+		transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	16%{
+		transform: rotateY(-90deg);
+	}
+	33%{
+		transform: rotateY(-90deg) rotateZ(90deg);
+	}
+	50%{
+		transform: rotateY(-180deg) rotateZ(90deg);
+	}
+	66%{
+		transform: rotateY(-270deg) rotateX(90deg);
+	}
+	83%{
+		transform: rotateX(90deg) ;
+	}
+}
