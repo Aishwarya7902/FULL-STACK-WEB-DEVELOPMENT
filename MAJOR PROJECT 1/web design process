@@ -1,0 +1,11 @@
+1.SETTING END GOALS AND TARGETS (eg i wanna build a shopping website)
+2.FIGURING OUT WHAT TO IMPLEMENT
+  ->FEATURES(eg place an order,write review,etc)
+  ->SCREENS(eg 1st page pe home screen then next page i wanna go to phone section ,then on other page a particular page,then on other page i can view its details etc)
+3.DESIGN
+  ->Breakpoints(for large screens,for medium screens etc)
+  ->Wireframes
+       _Low Fidelity(design the project on a pen on paper roughly)
+       _High Fidelity(high fidelity means that a particular thing will have this much height and this much width) 
+4.DEVELOPMENT  (write code)  
+  
