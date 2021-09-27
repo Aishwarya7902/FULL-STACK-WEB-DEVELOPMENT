@@ -1,0 +1,33 @@
+as there in the case of c++ we used function so that if we wanna make changes in any variable then we will have to make changes in the function only ...not at each and every place where we have used that variable
+SO FUNCTIONS WERE QUITE USEFUL FOR US
+
+IN THE SAME WAY IF WE WANNA MAKE CHANGES FOR A PARTICULAR PROPERTY IN CSS THEN AT EACH AND EVERY PLACE WE WILL HAVE TO MAKE CHANGES,DEFINATELY THIS IS GOING TO BE A LOT MORE PAINFUL
+HENCE CSS VARIABLES COMES INTO PICTURE ,USING CSS VARIABLES WE DONT HAVE TO MAKE CHANGES AT ALL THE PLACES,JUST MAKE A LITTLE BIT CHANGE AND BOOM! WE ARE GOOD TO GO!
+
+
+NOW LETS SEE HOW CAN WE DO THIS:
+1.FIRST WRITE WHERE U WANNA USE THIS VARIABLE PERFIX WILL BE COLON,HERE WE WANNA USE THIS VARIABLE IN OUR WHOLE DOCUMENT,HENCE WE WILL USE ROOT
+2.USE DOUBLE HYPHEN i.e -- and then the variable name and then colon(:) ,and write that value of property which u want
+3.TO USE THIS VARIABLE SOMEWHERE ELSE 
+var(variable name)
+
+_now lets see it via an example🧐
+
+
+:root{
+--variable name:#2857a4;
+}
+lets use it at any place😇
+.timeline-divider{
+margin-top:20px;
+color:var(--variable name);
+}
+
+😱ONE CACHE HERE IS THAT SOME BROWSERS DO NOT SUPPORT CSS VARIABLES ,eg INTERNET EXPLORER.
+
+🤔SO HOW CAN WE SOLVE THIS PROBLEM....LETS FIGURE IT OUT
+.timeline-divider{
+margin-top:20px;
+color:blue;  //since css runs from top to down for all browsers except internet explore below line will work ,for IE this line will work
+color:var(--variable name);
+}
