@@ -1,1 +1,5 @@
+1.the properties will take its value from the immediate parent css variables
+2.if any container does not have its own property then it will inherit the property of its previous parent
 
+3.APART FROM CSS VARIABLES ,CSS PROPERTIES BEHAVE A LITTLE BIT DIFFERENTLY
+for eg if we have not defined padding value in inner conatainer then it will not inherit the padding value of its parent
