@@ -1,0 +1,48 @@
+p{
+      color: green;
+      font-size: 20px;
+    }
+h1{
+      font-size: 60px;
+}
+
+h4{
+      text-transform: uppercase;
+}
+.uppercase{
+      text-transform: uppercase;
+}
+.cursive{
+      font-family: cursive;
+}
+/*
+we can group things together and apply common css rules to them*/
+
+
+/* one element can have more than one classes*/
+#blog_desc{
+      color: darkorange;
+}
+/* id selector is used when we want to apply a rule to a particular element
+out of different elements*/
+
+/*class selector wins over  type selectors*/
+
+/*id selector wins over class selectors*/
+/*inline css wins over all*/
+/*if same rule is applied several times latest of the one wins*/
+
+/*
+grouping css selectors*/
+h1,p{
+      font-family: sans-serif;
+}
+/*
+nesting css selectors*/
+
+/*li h4{
+      font-family: fantasy;
+}*/
+#blog-title:hover{
+      color: cyan;
+}
