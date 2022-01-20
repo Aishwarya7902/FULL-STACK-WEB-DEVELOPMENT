@@ -1,0 +1,30 @@
+#div1{
+	/*height: 200px;
+	width: 300px;*/
+	height: 80vh;
+	width: 100vw;
+	background-color: lightgreen;
+}
+/*
+here div2 is the child of div1 and in the styling of div2 we are using 
+relative units...% is a relative unit done in terms of parent
+*/
+#div2{
+	height: 50%;
+	width: 50%;
+	background-color: yellow;
+}
+/*another relative unit is vh and vw which is done in terms of viewport,
+viewport is the  visible area of the browser
+*/
+
+/*another relative unit is rem which is done in terms of
+root element
+we can also change root size
+html{
+	font-size: 30px;
+}
+/*
+another relative unit is em which is done in terms of
+parent .
+/*
