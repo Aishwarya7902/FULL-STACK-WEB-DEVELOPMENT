@@ -1,0 +1,18 @@
+#div1{
+	height: 200px;
+	width: 200px;
+	/*background-color: rgb(25, 125, 200);*/
+	background-color: rgba(25, 125, 200,0.7);
+    /*background-color: hsl(0, 100%, 50%);*/
+    /*background-color: hsla(0, 100%, 50%);*/
+    
+}
+/*
+ways to give color to an element
+1.name
+2.hex
+3.rgba
+4.rgb
+5.hsl
+6.hsla
+*/
