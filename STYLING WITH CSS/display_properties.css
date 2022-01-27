@@ -1,0 +1,47 @@
+/*what we will learn here is about block and inline 
+elements ,block elements cover the whole space
+and allow other elements to come in next inline
+whereas inline elements occupy as much space only
+as needed*/
+
+/*some elements are inline by default like span,img
+and some are block by default like div,p etc*/
+
+
+/*we can easily alter diplay property and make inline 
+elements block and block elements inline
+like:
+span{
+	display: block;
+}
+*/
+
+/*we cant set height and width of an inline element ,they will occupy
+only as much space as required
+*/
+
+/*if we want to make our divs sit next to each other as well as 
+we want that we can control their height and width,i.e  we want 
+both inline and block property at the same time ,for this we use 
+inline-block*/
+
+
+
+#div1{
+	background-color: red;
+	height: 200px;
+	width: 200px;
+
+}
+#div2{
+	background-color: yellow;
+	height: 200px;
+	width: 200px;
+
+}
+span{
+	display: block;
+}
+div{
+	display: inline-block;
+}
