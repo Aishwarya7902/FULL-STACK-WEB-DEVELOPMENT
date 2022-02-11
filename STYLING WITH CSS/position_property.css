@@ -1,0 +1,56 @@
+/*what we will learn here is position property
+there are  5 types of position property
+1.static 
+2.relative
+3.absolute
+4.fixed
+5.sticky*/
+
+/*static means element will be placed at position where
+it is supposed to be*/
+
+/*if we are using relative then it means element will 
+move to a certain position relative to its original
+position*/
+
+/*absolute is positioned with respect to the first
+positioned parent ...here the parent is also set as relative 
+to use absolute to the children*/
+
+/*fixed means element will stick to the viewport at a  certain position */
+
+/* sticky means the element will remain as usual ..but after we scroll
+then after a particular point this element sticks or actually behaves 
+as being fixed ..but remember it is fixed only wrt to the container 
+when we scroll and the container goes then this element will also
+go
+*/
+#outer-div{
+	border: 2px solid black;
+	margin: 20px;
+	position: relative;
+}
+#div1{
+	height: 200px;
+	width: 200px;
+	background-color: pink;
+}
+#div2{
+	height: 200px;
+	width: 200px;
+	background-color: yellow;
+	position: absolute;
+	left: 20px;/*it will shift 20 units from its normal
+	position*/
+	top: 20px;
+
+/*if we use relative ,then if element moves to some other place then 
+the its previous position will be blocked but in case of absolute no 
+space is reserved*/
+
+}
+#div3{
+	height: 200px;
+	width: 200px;
+	background-color: lawngreen;
+}
