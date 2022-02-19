@@ -1,0 +1,11 @@
+-> for any div if we set 
+min-width:150px;
+then it simply means if our screen resizes then the width of our div will not fall below 150px
+
+-> similarly we can use max-width:150px;
+min and max width are used to put constraint on elements that their size does not fall below a certain or it may not
+grow beyond a certain size
+
+
+-> similarly we can use min and max heigth
+-> we can change overflow value as visible,hidden,scroll,auto...for auto browser will decide what will happen
