@@ -1,0 +1,17 @@
+height:200px
+width:200px
+border:2px blue solid
+padding:2px;
+then if we use content box model
+then the actual size of element will be content+padding+border
+hence height of element will be 200+4+4(4 because for both border and padding 2px up and 2px down)
+same is the case with  width.
+#NOTE :MARGINS DONT ADD UP
+
+
+second box model is border box model which says that when you specify height and width of an element then it
+will be total height and width of the element it means it will include content+border+padding
+
+we can change box model using 
+box-sizing property
+
