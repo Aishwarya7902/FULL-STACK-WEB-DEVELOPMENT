@@ -31,15 +31,20 @@ body{
 .horizontal-list li a{
 	color: white;
 	text-decoration: none;
-	transition: color 0.8s;
+	
+
 }
 .text-center{
 	text-align: center;
 }
-.horizontal-list li a:hover{
+.nav-menu li a:hover{
 	color: cyan;
-	border-bottom:1px solid white ;
+	border-bottom: 1.5px solid darkgrey;
+	
 
+}
+.nav-menu li a{
+	transition: color 0.5s border-bottom 4s;
 }
 /*NAME*/
 #about-me{
@@ -48,4 +53,13 @@ body{
 	font-family: cursive;
 	letter-spacing: 0.2rem;
 
+}
+.social-icons li a i{
+	padding:2px;
+	font-size: 1.5rem;
+   border-radius: 50%;
+}
+
+.social-icons li a i:hover{
+	box-shadow: 0px 0px 6px 4px grey;
 }
