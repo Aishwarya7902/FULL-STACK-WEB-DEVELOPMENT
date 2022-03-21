@@ -1,0 +1,48 @@
+1__by default elements are placed horizontally
+2__default direction is row direction
+3__if you want to change it 
+flex-direction: column;
+4__flex-direction:row;
+how is the sequence of divs decided.....??
+ans is the order in which you place the div in the html file like this
+<div id="container">
+	<div id="div1">
+		Div 1
+	</div>
+	<div id="div2">
+		Div 2
+	</div>
+	<div id="div3">
+		Div 3
+	</div>
+	<div id="div4">
+		Div 4
+	</div>
+</div>
+so from left to right order will be div1,div2,div3,div4
+
+IF U WANNA REVERSE THE ORDER USE:flex-direction:row-reverse;
+by this elements will be placed from left to right as div4,div3,div2,div1
+
+SIMILARLY WE CAN USE COLUMN REVERSE.
+THIS IS HOW WE CAN CONTROL SEQUENCE OF CHILDREN.
+
+5__IF YOU WANNA CHANGE THE ORDER OF CHILDREN WRITTEN IN HTML FILE USE "ORDER" IN CSS FILE
+earlier all div had order 0 and when all div have same order then they come n the same sequence in which they are written in html file
+#div1{
+	background-color:yellow ;
+}
+#div2{
+	background-color:pink ;
+	order: 1;
+}
+#div3{
+	background-color:cyan ;
+}
+#div4{
+	background-color:lightgreen ;
+}
+
+by doing this order will be div1 ,div3,div4,div2
+since div 2 has order greater than all rest ,hence it will come in the last ,rest three have same order with 0 as default so they will be placed as they come in html file.
+6__IF YOU WANNA SEND DIV3 TO THE LAST ...SIMPLY SET ITS ORDER HIGHEST OF THE REST.
