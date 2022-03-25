@@ -1,1 +1,25 @@
+#container{
+height: 500px;
+width: 500px;
+background-color: lightgrey;
+display: flex;
+justify-content: flex-start;
+
+}
+#container div{
+	height: 100px;
+	width: 100px;
+}
+#div1{
+	background-color:yellow ;
+	
+}
+#div2{
+	background-color:pink ;
+	
+}
+#div3{
+	background-color:cyan ;
+	
+}
 
