@@ -1,1 +1,25 @@
+1.if elements have more space then they can grow to occupy the extra space
+if elements have less space then they can shrink to occupy the less space
+this felxibiltiy is what flex actually offers us. 
 
+2.flex grow means ....the element will grow accordingly the ratio given to it...to adjust the extra space available.
+eg 
+#div1{
+	background-color:yellow ;
+	flex-grow: 1;
+}
+#div2{
+	background-color:pink ;
+	flex-grow: 1;
+}
+lets say 100px of extra space is available then half of 100px will be shared by div1 and half of 100px will be shared by div2.
+note : u may ask how this half of 100px came 
+since ratio of grow for two divs was 1:1
+hence (1/1+1)*100px
+
+if ratio had been 4:1
+then for div1 grown size=( 4/(4+1) )*100=80px
+     for div2 grown size=( 1/(4+1) )*100=20px
+     
+3. the way we have flex grow ....we have flex shrink as well
+what it does is if there is less availability of space then elements will shrink according to the ratios given to them.
