@@ -63,3 +63,49 @@ body{
 .social-icons li a i:hover{
 	box-shadow: 0px 0px 6px 4px grey;
 }
+section{
+	width: 100%;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+}
+
+section:nth-child(2n+1){
+	background-color: white;
+}
+section:nth-child(2n){
+	background-color: lightgrey;
+}
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#my-image{
+	height: 20rem;
+	width: 20rem;
+	margin: auto;
+	margin-top: -17vh;
+
+}
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	border: 1px solid lightpink;
+}
+#about p{
+	font-size: 25px;
+}
+#my-image img:hover{
+	box-shadow: 0px 0px 6px 4px grey;
+}
+p{
+	text-align: center;
+	color: #673AB7;
+	font-size: 30px;
+	font-family:cursive;
+	letter-spacing: 2px;
+	font-weight: bold;
+	
+}
