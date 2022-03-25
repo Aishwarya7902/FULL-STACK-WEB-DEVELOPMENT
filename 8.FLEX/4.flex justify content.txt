@@ -1,1 +1,35 @@
+IN THIS WE WILL LEARN WHAT EXACTLY JUSTIFY CONTENT PROPERTY OF FLEXBOX IS
 
+1.it is used to decide or adjust alignment of elements within flexbox
+-> wheather u want to align them towards the beginning of flexbox
+-> or towards the end
+-> or u want to distribute the space available equally between the elements or around the flexbox elements
+all the above points can be decided with the help of justify content
+
+2. justify content decides alignment across the main axis
+
+u may ask me what is main axis...so lets discuss
+-> if flex direction is row then main axis  from left to right
+-> if flex direction is row-reverse then main axis  from  right to left 
+-> if flex direction is column then main axis  from top to bottom
+-> if flex direction is column-reverse then main axis  from bottom to top 
+
+3.by default main axis is from left to right
+
+4.justify content can take five different values
+
+A.justify-content: flex-start;
+this is the default value....by using this elements will start from the beginning of flexbox
+
+B.justify-content: flex-end;
+this will align the elemnts towards the end of the flexbox
+
+C.justify-content:center;
+this will align the elemnts towards the center of the flexbox
+
+D.justify-content:space-around;
+this will try to achieve equal space around every element
+space between two divs will be obviously more coz both div will leave some space around it..hence space of both gets added up.
+
+E.justify-content:space-between;
+it will achieve equal space between the elements and not around the elements
