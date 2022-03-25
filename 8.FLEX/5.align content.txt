@@ -1,1 +1,17 @@
+1.this will align items across cross axis
+so what do u mean by cross axis
 
+cross axis is axis which is perpendicular to the main axis
+
+2.lets say there is row ...so main axis is left to right ..then cross axis will be top to botttom
+3.for column ....main axis is top to bottom...so cross axis is left to right
+4.for column reverse main axis is bottom to top....so cross axis is right to left
+5.There are five value that align items can actually take
+A.flex-start
+B.flex-end -this will bring items to the end of the cross axis
+C.center
+D.baseline- if u set different margins for different elements ...then by baseline all will be aligned on the same baseline.
+E.stretch-it stretches item across cross axis(only if height is set to be auto)
+we can set min and max heght too
+
+6.IT WILL BE INTERESTING TO USE JUSTIFY CONTENT AND ALIGN ITEMS AT THE SAME TIME.
