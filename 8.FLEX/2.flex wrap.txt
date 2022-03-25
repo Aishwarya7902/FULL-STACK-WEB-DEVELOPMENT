@@ -1,1 +1,29 @@
+1-lets say you made an outer div and within that div you placed certain divs......if u increse the number of inner divs...then the divs will shrink to adjust themselves 
+to fit into the outer div...if u wanna avoid these..and want that whatever dimension u have give to the inner div will be applied to them....
+then u will have to use the flex-wrap property.
+
+2.by defalut
+flex-wrap: nowrap;
+
+3.if u want they come in multiple line
+use
+flex-wrap: wrap;
+so now every inner div will consume 250px as we have mentioned in the css file
+
+4.if div overflows...set heigth to be auto
+
+5.the way we have wrap ...we can have wrap-reverse as well to wrap in reverse order.
+earlier elements were
+1,2,3,4
+5
+after wrap
+5
+1,2,3,4
+
+6.u can play around with and see the changes
+flex-direction:row-reverse;
+flex-wrap: wrap;
+u can play around with column too.
+
+
 
