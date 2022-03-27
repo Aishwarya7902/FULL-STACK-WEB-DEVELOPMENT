@@ -1,1 +1,37 @@
+1.gradient effect is a effect like there is a transition from blue to purple and something like that
+minimu two color stops are needed to see this effect
 
+2.using gradient we can crate pretty cool backgrounds
+
+3.by writing this
+#container{
+	width: 500px;
+	height: 500px;
+	border: 2px solid  black;
+	background-image:linear-gradient(red,blue) ;
+}
+blue starts after 50%
+
+background-image:linear-gradient(red,blue 20%) ;
+IN THIS BLUE STARTS FROM 20%
+
+4.we can write like this also
+background-image:linear-gradient(red,blue 20px) ;
+
+5.currently direction of gradient is towards bottom
+u can do like this too
+background-image:linear-gradient(to right,red,blue ) ;
+
+u can do this too
+background-image:linear-gradient(to top right,red,blue ) ;
+
+u can do this too
+background-image:linear-gradient(105deg,red,blue ) ;
+
+u can give -ve degrees too
+
+6.we can set repeating linear gradient too
+background:repeating-linear-gradient(red,blue,20px ) ;
+here we can use directions too
+
+7.we can set radial gradient too
