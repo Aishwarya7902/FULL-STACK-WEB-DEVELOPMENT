@@ -1,1 +1,14 @@
+1.when the contents of the div is more than the div then the contents will overflow from the div
+
+2.if u want that the contents adjust themselves according to the space available in the div then u can use the property the property of overflow wrap
+overflow-wrap: break-word;
+we can also use hidden ,scroll etc.
+
+3.in case words are overflowing we can use 
+overflow-wrap: break-word;
+
+4.overflow wrap can take two values 
+a.normal...let the words flow
+b.word break
+
 
