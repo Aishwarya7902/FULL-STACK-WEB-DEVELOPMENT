@@ -1,1 +1,10 @@
+1.u can think of a pseudo class as a keyword that is used to select an element along with the selector
+based on a specific state ..eg hover specified a specific state..like if we hover over the element we will be able to specify what property that elemnt should have at the point we hover over it.
 
+2.similarly there are other pseudo classes
+
+3.in this we will learn about pseudo classes related to links
+a.link-it is used if element is unvisited
+b.active-it specifies wheather element is active or not
+c.visited-if element is already visited
+d.target-if element is target element
