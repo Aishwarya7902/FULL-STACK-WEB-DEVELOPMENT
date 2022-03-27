@@ -1,1 +1,6 @@
-
+#container{
+	width: 500px;
+	height: 500px;
+	border: 2px solid  black;
+	background:repeating-linear-gradient(red,blue 20px ) ;
+}
