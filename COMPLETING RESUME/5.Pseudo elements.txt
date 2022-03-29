@@ -1,0 +1,3 @@
+1.pseudo elements are used to style elements or u can say certain parts of an element 
+2.lets say u have a paragraph and u want to style first letter of paragraph
+3.or lets say u wanna style first line of paragraph
