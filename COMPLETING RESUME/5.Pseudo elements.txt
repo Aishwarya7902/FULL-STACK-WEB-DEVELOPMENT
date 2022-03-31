@@ -1,3 +1,32 @@
 1.pseudo elements are used to style elements or u can say certain parts of an element 
-2.lets say u have a paragraph and u want to style first letter of paragraph
-3.or lets say u wanna style first line of paragraph
+2.lets say u have a paragraph and u want to style first letter of paragraph.....u can do this
+p::first-letter{
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+3.if u want to apply above style only to some p tags and not to all p tags...u can do this
+.styled-first-letter::first-letter{
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+4.or lets say u wanna style first line of paragraph
+
+5.before and after pseudo class are used to add content before and after the content of an element
+p::before{
+	content: 'Before';
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+above code means whatever is the content of p tag it will add 'Before'  before its content
+in the similar way we have after which works in similar way as before
+p::after{
+	content: 'After';
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
