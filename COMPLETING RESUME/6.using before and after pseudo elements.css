@@ -1,1 +1,32 @@
-
+.styled-first-letter::first-letter{
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+li::before{
+	content: ' ';
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-size: contain;
+	/*even if wanna add image make sure u dont skip content*/
+	background-image: url(https://tse4.mm.bing.net/th?id=OIP.KjlZteC_HfhPglyHRkbq0wHaHa&pid=Api&P=0&w=184&h=184);
+}
+p::before{
+	content: 'Before';
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+p::after{
+	content: ' ';
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-size: contain;
+	/*even if wanna add image make sure u dont skip content*/
+	background-image: url(https://tse4.mm.bing.net/th?id=OIP.KjlZteC_HfhPglyHRkbq0wHaHa&pid=Api&P=0&w=184&h=184);
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
