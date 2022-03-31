@@ -1,1 +1,23 @@
+1.as we have learnt in the previous video how to use before and after pseudo classes ..before adds content before element and after adds element after the element
 
+2.there is a lot and lot more exciting use cases of before and after....and we will learn in this.
+
+3.lets say i dont want to add content ..i want to add an image before...we can easily do that with the help of
+pseudo elements
+#NOTE :BELOW CODE WILL NOT WORK SINCE IMAGE IS AN INLINE ELEMENT SO WE CANT SET ITS DIMENSIONS....SOLN OF THIS??????????????? SIMPLE.......SET IT TO INLINE BLOCK NA AND SET SOME HEIGHT AND WIDTH OF IT.
+
+p::after{
+	content: ' ';
+	/*even if wanna add image make sure u dont skip content*/
+  
+	background-image: url(https://tse4.mm.bing.net/th?id=OIP.KjlZteC_HfhPglyHRkbq0wHaHa&pid=Api&P=0&w=184&h=184);
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+4.other interesting use cases are ...lets say u have a paragraph..and u want to start that paragraph as quoted text...eg "Github" is lifeline...so what we can do here is we can add __"__ before and __"__ after Github
+all u have to do is make a class called quoted text and apply before and after rules and here content will be
+quote
+
+5.another use case of before and after pseudo elements is we can customize our lists
