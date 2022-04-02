@@ -68,6 +68,7 @@ section{
 	height: 75vh;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 section:nth-child(2n+1){
@@ -75,6 +76,157 @@ section:nth-child(2n+1){
 }
 section:nth-child(2n){
 	background-color: lightgrey;
+}
+section:target{
+	background-color:lightgreen;
+}
+/*section heading*/
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	font-weight: 400;
+}
+.section-heading span{
+font-size: 40px;
+color: #2857a4;
+display: inline-block;
+padding-top:10px ;
+margin-right: 0.5rem;
+}
+/*skills section*/
+.skill-display{
+	width: 70%;
+	/*height: 100px;
+	border: 2px solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.skill-progress{
+	width: 7rem;
+	height: 1.5rem;
+	background-color: lightgrey;
+	border-radius: 0.8rem;
+	border: 2px solid black;
+	margin-bottom: 20px;
+}
+.skill-progress>div{
+	border-radius: 20px 0px 0px 20px;
+}
+.skill-name span{
+	color: white;
+	font-size: 1.25rem;
+	margin-left:10px;
+}
+/*Timeline*/
+.timeline{
+	position: relative;
+	width: 65%;
+	height: auto;
+	border: 2px solid black;
+	margin-top: -70px;
+}
+.timeline-box{
+	position: relative;
+	width: 30%;
+	left: 5%;
+
+	height: ;
+	min-height: 100px;
+	border: 2px solid black;
+}
+.timeline-box:nth-child(2n){
+	left: 53%;
+}
+.timeline-box:nth-child(2n+1)::after{
+	content: '';
+	position: absolute;
+	top: 25%;
+	 right: -35%;
+	border-radius: 50%;
+	width: 0.5rem;
+	height:0.5rem;
+	background-color: red;
+	z-index: 1;
+
+}
+.timeline-box:nth-child(2n)::after{
+	content: '';
+	position: absolute;
+	top: 25%;
+	 left: -28%;
+	border-radius: 50%;
+	width: 0.5rem;
+	height:0.5rem;
+	background-color: red;
+	z-index: 1;
+
+}
+.timeline-divider{
+	position: absolute;
+	height: 75%;
+	width: 0;
+	border: 1.5px dashed grey;
+	top: 10%;
+	left: 45%;
+}
+.timeline-traveller{
+	position: sticky;
+	top: 25%;
+	transform: rotate(90deg);
+	z-index: 2;
+}
+
+.mb75px{
+	margin-bottom:75px;
+}
+.text-highlight{
+	color: #2857a4;
+	font-weight: 600;
+}
+.mb-blue{
+	background-color: #2857a4;
+}
+.mb-yellow{
+	background-color: yellow;
+}
+.mb-green{
+	background-color: lightgreen;
+}
+.mb-pink{
+	background-color: lightpink;
+}
+.mb-purple{
+	background-color:purple ;
+}
+.mb-orange{
+	background-color: orange;
+}
+
+/*percent-class*/
+.eighty-five-percent{
+	width: 85%;
+	height: inherit;
+}
+.eighty-percent{
+	width: 80%;
+	height: inherit;
+}
+.ninety-five-percent{
+	width: 95%;
+	height: inherit;
+}
+.seventy-five-percent{
+	width: 75%;
+	height: inherit;
+}
+.forty-five-percent{
+	width: 45%;
+	height: inherit;
+}
+.fifty-percent{
+	width: 50%;
+	height: inherit;
 }
 #about{
 	height: auto;
