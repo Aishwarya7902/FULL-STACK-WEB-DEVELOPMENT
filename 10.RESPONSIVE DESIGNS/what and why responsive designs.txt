@@ -1,1 +1,11 @@
+1. we will learn how to create responsive web pages
+2. so as a developer our prime focus should be to provide great user experience irrespective of the device on which user is using it
 
+3.as a developer we must undrstand that 50% of the traffic comes from mobiles and ipads.
+4.if the user opens it in a mobile or ipad itshould look decent even if the fact that u have designed it on a laptop or desktop.
+
+5.it must adjust its contents and designs accordingly.
+
+6.so making responsive designs is of prime importance.
+
+7.HORIZONTAL SCROLLING IS NOT CONSIDERED AS A GOOD USER EXPERIENCE....VERTICAL SCROLL IS CONSIDERED AS OK. 
