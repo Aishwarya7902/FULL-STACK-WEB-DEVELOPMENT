@@ -1,1 +1,2 @@
-
+media queries means for a particular screen size we wanna apply a particular set of rules and for another screen size we wanna apply a different set of rules....so 
+basically what we are trying to achieve is for a particular screen we want certain set of css rules and for another screen size we wanna apply different set of css rules.
