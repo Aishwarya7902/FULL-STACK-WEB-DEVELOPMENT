@@ -1,0 +1,12 @@
+1.DESKTOP FIRST APPROACH
+in this while writing media queries first we write 
+desktop...then ipad...then mobile
+
+2.MOBILE FIRST APPROACH 
+in this while writing media queries first we write
+miobile ...then ipad ...then desktop
+
+3. IF U KNOW THAT THE MAJORITY OF YOUR USERS WILL BE FROM DESKTOP THEN GO FOR DESKTOP FIRST APPROACH
+
+4.KNOWING THE FACT THAT HOW INTERNET BOOMED AND IN THIS MOST OF THE TRAFFIC COMES FROM MOBILE IN THAT CASE USE 
+MOBILE FIRST APPROACH.
