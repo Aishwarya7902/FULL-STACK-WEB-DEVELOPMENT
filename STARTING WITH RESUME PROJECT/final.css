@@ -170,6 +170,27 @@ margin-right: 0.5rem;
 	top: 10%;
 	left: 45%;
 }
+@media screen and (max-width:600px){
+	.timeline-divider{
+		left: 5%;
+	}
+	.timeline-box{
+		left: 12% !important;
+		width: 80%;
+	}
+	/*.timeline-box:nth-child(2n)
+	left: 12%;*/
+	.timeline-box:nth-child(2n+1)::after{
+		left: -11%;
+	}
+	.timeline-box:nth-child(2n)::after{
+		left: -11%;
+	}
+	html{
+		font-size: 15px;
+	}
+
+}
 .timeline-traveller{
 	position: sticky;
 	top: 25%;
