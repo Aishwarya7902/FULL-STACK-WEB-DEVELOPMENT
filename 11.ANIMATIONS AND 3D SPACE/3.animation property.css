@@ -1,1 +1,51 @@
+@keyframes changeShape{
+	from{
+		/*from corresponds to 0% state*/
+		border-radius: 0%;
+	}
+	to{
+		/*to corresponds to 100% state*/
+		border-radius: 50%;
+	}
+}
+/*we can also create different stages
+@keyframes changeShape{
+	0%{
+		border-radius: 0%;
+	}
+	25%{
+		border-radius: 12.5%;
+	}
+	50%{
+		border-radius: 25%;
+	}
+	100%{
+		border-radius: 50%;
+	}
+}*/
 
+div{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	background-color: aquamarine;
+    /*transform: rotate(120deg);*/
+    /*transform: scale(1.8);*/
+   /* transform: translate(100px);*/
+    /*transform: translateZ(10px);*/
+    animation: changeShape 1s ease-in-out 4 alternate;
+    /*animation: changeShape 1s ease-in-out infinite;
+    this is used if u wnat that ur animation runs forever*/ 
+    /*transition:  1s steps(4,end);*/
+
+}
+/*
+TIMING FUNCTIONS
+1.ease-in-out starts smoothly and ends smoothly
+2.ease-in starts smoothly
+3.ease-out ends smoothly
+4.linear
+5.cubic-bezier for more curves
+*/
