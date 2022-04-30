@@ -1,1 +1,37 @@
 
+body{
+	background-color:black;
+}
+@keyframes changeShape{
+	0%{
+		transform: translateY(100px);
+	}
+	25%{
+		transform: translateY(-50px);
+	}
+	50%{
+		transform: translateY(25px);
+	}
+	75%{
+		transform: translateY(-12.5px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+div{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	background-color: aquamarine;
+    /*transform: rotate(120deg);*/
+    /*transform: scale(1.8);*/
+   /* transform: translate(100px);*/
+    /*transform: translateZ(10px);*/
+    animation: changeShape 1s ease-in-out ;
+    /*transition:  1s steps(4,end);*/
+
+}
+
