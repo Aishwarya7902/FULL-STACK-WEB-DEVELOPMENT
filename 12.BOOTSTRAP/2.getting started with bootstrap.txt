@@ -1,1 +1,16 @@
+1.bootstrap is a framework developed by the developers of twitter.
 
+2.code for  classes is already written all u have to do is to just use those classes.
+
+3.pros of using bootstrap
+
+A.popular
+B.saves time
+C.lots of style
+D.responsive
+E.customisable
+F.great support and documentation
+
+4.cons of using bootstrap
+A.bulky
+B.popular...so two websites might become similar
