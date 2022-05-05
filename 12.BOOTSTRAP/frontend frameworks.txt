@@ -1,1 +1,21 @@
+1.WHAT IS A FRAMEWORK....?????
+a framework is something which helps us in quickly developing our web page and with a proper structure
+and gives us lots of features which are already coded by somebody...so u can easily use that code in your project 
+without much effort.
 
+2.WHY TO READ IT......????
+
+if something is already available for free then why to waste time and effort in building it from scratch.
+
+3.BENEFIT
+
+A.u can straightaway use it in your project
+B.u can get a lots of features
+C.u can get the desired output in less time and effort
+
+4.frontend frameworks provide features for html,css,javascript
+
+5.some popular frontend frameworks are
+A.bootstrap
+B.materialised css
+C.semantic css
