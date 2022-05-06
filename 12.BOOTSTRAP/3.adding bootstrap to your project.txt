@@ -1,1 +1,6 @@
+GO TO THE OFFICIAL BOOTSRAP WEBSITE
 
+1.u can add bootstrap to your project via two ways
+A.download whole bootstrap
+B.use bootstrap cdn and add it to your project
+C.read and follow the instructions given on the website.
