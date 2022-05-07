@@ -1,1 +1,10 @@
+1.while creating layouts grid system is something which u should definately know.
+2.grid system contains containers.
+3.every container will have rows and columns
+4. every grid is a 12 column grid
+5.u can specify postion of an element where u wanna place it in the grid.
+6.with the help of grids designing of a layout becomes very clear.
+7.by default element will take the whole 12 columns.
+8.by default the element will not cover the whole window ....it will have some margin
+9.if u want that the element covers the whole window
 
