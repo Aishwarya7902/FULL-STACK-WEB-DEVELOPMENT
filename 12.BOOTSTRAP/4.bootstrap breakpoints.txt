@@ -1,1 +1,5 @@
-
+1. xs for screen <576px
+2. sm for screen <768px
+3. md for screen 768px onwards
+4. lg for screen 992px onwards
+5. xl for screen 1200px onwards
