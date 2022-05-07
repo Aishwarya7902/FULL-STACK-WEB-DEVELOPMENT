@@ -6,5 +6,5 @@
 6.with the help of grids designing of a layout becomes very clear.
 7.by default element will take the whole 12 columns.
 8.by default the element will not cover the whole window ....it will have some margin
-9.if u want that the element covers the whole window
+9.if u want that the element covers the whole window u can customise it
 
