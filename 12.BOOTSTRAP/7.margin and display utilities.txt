@@ -1,1 +1,19 @@
-1. layouts
+************************DISPLAY PROPERTY******************
+1.d-block (this will set display as block for xs and above)
+  d-md-block (this will set display as block for medium and above)
+  
+2.what to do if u want an element to be displayed only on small screens
+so simply set display as none for medium and above
+ i.e. 
+ d-md-none
+ 
+3.what if i want an element to be visible on small screens but not visible on medium but at the same time i want it to be visible on large and extra large screens.
+--> by default it is display is set as block for small screens
+-->    d-md-none (for medium not visible)
+-->    d-lg-block (for large and extra large screens it is visible)
+
+
+************************MARGIN AND PADDING*********************
+
+1. use  m for margin and p for padding
+2. mt-2 class will mean margin top is 2px
