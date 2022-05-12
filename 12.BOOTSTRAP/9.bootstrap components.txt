@@ -17,4 +17,9 @@
 4.u can use outline button class as well
 
 **********************CARDS*********************
-/*START FROM 5:00*/
+cards are something which are really very helpful both in web apps and also in android app.
+
+
+********************DROPDOWNS*******************
+
+THERE ARE MANY MORE COMPONENTS IN  BOOTSTRAP U CAN GO AND TRY AND TEST THEM.
