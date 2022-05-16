@@ -1,1 +1,21 @@
+1.so why we create css variable......?
+it's so because while making trials we will have to make changes at many places ...hence this is a very 
+painful task
 
+2.sytax for using  a variable
+// we are using root here because we want to use this variable in the entire document 
+:root{
+   --section-color-blue:#2857a4
+}
+
+//section-color-blue is a variable name .
+
+3.how to use this variable 
+so wherever u want to use this variable in color instead of using the hexcode write as
+
+color:var(--section-color-blue);
+
+4.if u wanna try and test...just change the value of the variable...and changes will be reflected at each
+and every place.
+
+5.note :not all modern browsers support css variables.
