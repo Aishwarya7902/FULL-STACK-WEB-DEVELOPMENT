@@ -1,0 +1,14 @@
+WEB DESIGN PROCESS
+
+ 1.setting goals and targets
+ 2.figuring out what to implement
+   ->features
+   ->screens
+ 3.Design
+   ->breakpoints/approach
+   ->wireframes
+        a.low fidelity (sketch on roughpaper)
+        b.high fidelity (being more technical like what shold be the height ...what should be the width)
+4.development
+5.launch
+6.maintenance
