@@ -1,0 +1,16 @@
+1.we can create variable for height ,width,colors or anything which we want
+
+2.advantages of creating a css variable
+  a.it makes our code a lot more flexible..we can try and test different colors,height and other properties 
+    too...we just have to make changes at one place ...and the changes will be reflected wherever we have
+    used that variable.
+3. css variables are not like programming variables....css variables do not take memory
+
+4.if we use root to define a css variable ..it means we can use it in the entire document
+
+5.we can also define our css variables to use in a container only..
+
+6.in case of other properties if we make any mistakes  or errors..then that property will not be inherited
+from its parent.
+
+7.in case of css variables if we make any mistake then that property will be inherited from its parent.
